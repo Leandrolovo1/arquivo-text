@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" padding="10" fx:controller="com.exemplo.alunosapp.ControllerNotas">
+    <TextField fx:id="nota1Field" promptText="Nota 1"/>
+    <TextField fx:id="nota2Field" promptText="Nota 2"/>
+    <TextField fx:id="nota3Field" promptText="Nota 3"/>
+    <TextField fx:id="nota4Field" promptText="Nota 4"/>
+    <Button fx:id="salvarButton" text="Salvar"/>
+</VBox>
